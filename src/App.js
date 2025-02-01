@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { Paragraph } from './components/Paragraph';
+import Counter from './components/Paragraph/Counter';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <Paragraph />
+      <Counter />
     </div>
   );
 }
