@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Paragraph } from './components/Paragraph';
-import Counter from './components/Paragraph/Counter';
+import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
